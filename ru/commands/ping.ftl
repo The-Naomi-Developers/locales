@@ -1,4 +1,5 @@
-ping = пинг-задержка
-ping-description = Отобразить задержку API у бота.
-
-ping-response = Понг! {$latency}
+# Command meta
+PingCommand-Name = пинг-задержка
+PingCommand-Description = Отобразить задержку API у бота.
+# Command content
+PingCommand-Pong = Понг! {$latency}
