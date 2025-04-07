@@ -1,7 +1,7 @@
 # Command meta
-ChatCommand-Name = чат
-ChatCommand-Description = [⭐️] Общение с нейросетями на Ваш выбор.
+chat-name = чат
+chat-desc = [⭐️] Общение с нейросетями на Ваш выбор.
 # Command arguments
-ChatCommand-Arguments-message = Ваше сообщение
+chat-args-message = Ваше сообщение
 # Command content
 # ...
