@@ -1,11 +1,13 @@
 # Command meta
 user-name = о-пользователе
 user-desc = Показать информацию о пользователе (если не указан, то о себе).
+# Context command meta
+user-ctx-name = Информация о пользователе
 # Command arguments
 user-args-user = Имя пользователя
 # Command content
 user-content-title = О {$user_type ->
-     [bot] боте @{$user_name}
+     [bot] приложении @{$user_name}
     *[user] пользователе @{$user_name}
 }
 user-content-info = Информация об аккаунте
