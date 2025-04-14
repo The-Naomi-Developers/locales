@@ -7,7 +7,7 @@ user-ctx-name = Информация о пользователе
 user-args-user = Имя пользователя
 # Command content
 user-content-title = О {$user_type ->
-     [bot] приложении @{$user_name}
+    [bot] приложении @{$user_name}
     *[user] пользователе @{$user_name}
 }
 user-content-info = Информация об аккаунте
