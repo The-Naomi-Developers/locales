@@ -3,6 +3,8 @@ cmd-server-name = о-сервере
 cmd-server-desc = Показать информацию об этом сервере.
 
 # Command content
+cmd-server-content-thats-not-server = :n_woah: Но это ведь не сервер...
+
 cmd-server-content-title = О {$server_type ->
     *[private] сервере {$server_name}
      [community] сообществе {$server_name}
