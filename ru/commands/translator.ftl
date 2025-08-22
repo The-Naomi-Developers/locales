@@ -6,8 +6,8 @@ cmd-translate-desc = Перевести с использованием DeepL Tr
 ctx-translate-name = Перевести на мой язык
 
 # Command arguments
-cmd-translate-args-from_lang = Исходный язык
-cmd-translate-args-to_lang = Целевой язык
+cmd-translate-args-from_lang = исходный-язык
+cmd-translate-args-to_lang = целевой-язык
 
 # Command content
 ctx-translate-content-unsupported-language = ❌ | Ваш язык ({$language_code}) не поддерживается!
