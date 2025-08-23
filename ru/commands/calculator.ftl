@@ -1,6 +1,10 @@
 # Command meta
-cmd-calculator-name = калькулятор
-cmd-calculator-desc = Вычислить что-то и отправить результат в чат.
+cmd-calc-name = калькулятор
+cmd-calc-desc = Вычислить что-то и отправить результат в чат.
 
 # Command arguments
-cmd-calculator-args-expression = Математическое выражение, которое необходимо вычислить.
+cmd-calc-args-expression = выражение
+cmd-calc-args-expression-desc = Математическое выражение, которое необходимо вычислить.
+
+# Command content
+ctx-calc-content-calculation_error = :n_annoyed: Не получилось вычислить...

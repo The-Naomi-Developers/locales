@@ -3,7 +3,8 @@ cmd-user-name = погода
 cmd-user-desc = Посмотреть погоду в любом городе мира.
 
 # Command arguments
-cmd-user-args-user = Город
+cmd-user-args-user = город
+cmd-user-args-user-desc = Город, по которому отобразить текущую погоду. Потом можно будет добавить еще городов.
 
 # Command content
 cmd-weather-content-city_not_found = :n_active_search: Не получилось найти такой город...

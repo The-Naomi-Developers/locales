@@ -1,6 +1,7 @@
 # Command meta
 cmd-stats-name = статистика-бота
 cmd-stats-desc = Ого, да это же информация... обо мне! Какой ужас.
+
 # Command content
 cmd-stats-content-general-title =
     ## Это я, {$bot_user_name}
