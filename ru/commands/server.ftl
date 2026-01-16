@@ -11,7 +11,7 @@ cmd-server-content-title = О {$server_type ->
 }
 
 cmd-server-content-info = Общая информация
-cmd-server-content-info-boost_is_active = :n_sparkles: **Буст от @{$user_name}**
+cmd-server-content-info-boost_is_active = :n_sparkles: Буст **{$tier_name}** от **@{$user_name}**
 cmd-server-content-info-id = :n_fingerprint: ID: `{$id}`
 cmd-server-content-info-created_at = :n_clockplus: Регистрация: {$timestamp_markup}
 
