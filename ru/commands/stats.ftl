@@ -4,11 +4,11 @@ cmd-stats-desc = Ого, да это же информация... обо мне!
 
 # Command content
 cmd-stats-content-general-title =
-    ## Это я, {$bot_user_name}
+    Это я, {$bot_user_name}
     {"*"}И в этом разделе вы можете посмотреть,
     что я такое и почему меня не едят!{"*"}
 cmd-stats-content-hardware-title =
-    ## А это мое железо
+    А это мое железо
     {"*"}Небольшой обзор того, на чем я бегаю и как быстро!{"*"}
 
 cmd-stats-content-general-commands = :n_slash: | {$command_count -> 
@@ -46,10 +46,11 @@ cmd-stats-content-general-active_shards = :n_lined_square: | В этом кла�
 
 cmd-stats-content-hardware-runtime = :n_python: | Версия рантайма: **{$runtime}**
 cmd-stats-content-hardware-system = :n_cloud_computing: | ОС: **{$os_name}**
-cmd-stats-content-hardware-dpyver = :n_python: | Версия discord.py **{$dpy_version}**
+cmd-stats-content-hardware-dpyver = :n_python: | Версия discord.py: **{$dpy_version}**
+cmd-stats-content-hardware-uptime = :n_clockplus: | Запуск произведен: **{$discord_timestamp}**
 
 cmd-stats-button-general = Обо мне
-cmd-stats-button-hardware = О железе
+cmd-stats-button-hardware = Система и железо
 
 cmd-stats-content-hardware-memory = :n_memory: | Оперативная память:
     {$memory_bar}
