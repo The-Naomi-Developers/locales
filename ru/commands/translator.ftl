@@ -16,7 +16,7 @@ cmd-translate-args-text = текст
 cmd-translate-args-text-desc = Собственно, текст, который нужно перевести
 
 # Command content
-ctx-translate-content-unsupported-language = :n_annoyed: Ваш язык ({$language_code}) не поддерживается!
-ctx-translate-content-failed-to-translate = :n_woah: Не получилось перевести...
+cmd-translate-content-unsupported-language = :n_annoyed: Ваш язык ({$language_code}) не поддерживается!
+cmd-translate-content-failed-to-translate = :n_woah: Не получилось перевести...
 
-ctx-translate-content-title = **:n_translate: | Переведено с {$from_language_name} на {$to_language_name}**
+cmd-translate-content-title = **:n_translate: | Переведено с {$from_language_name} на {$to_language_name}**
