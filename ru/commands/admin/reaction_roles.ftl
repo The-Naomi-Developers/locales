@@ -34,12 +34,11 @@ cmd-admin-panel-content-reaction_roles-not_found = :n_annoyed: Запрошен�
 
 # Buttons
 cmd-admin-panel-button-reaction_roles-create = Создать
-cmd-admin-panel-button-reaction_roles-listing = Открыть листинг
+cmd-admin-panel-button-reaction_roles-return_to_menu = В меню ролей по реакциям
+cmd-admin-panel-button-reaction_roles-docs = Инструкция
 
 cmd-admin-panel-button-reaction_roles-enter_message_url = Указать сообщение
 cmd-admin-panel-button-reaction_roles-enter_emoji_code = Указать эмодзи
-
-cmd-admin-panel-button-reaction_roles-return_to_menu = В меню ролей по реакциям
 
 # Meta
 cmd-admin-panel-content-reaction_roles-role_does_not_exist = Роль удалена...
@@ -100,4 +99,4 @@ cmd-admin-panel-content-reaction_roles-step_4_5-input-placeholder = Надеюс
 
 # Finish
 cmd-admin-panel-content-reaction_roles-finish-title = Роль по реакции » Готово
-cmd-admin-panel-content-reaction_roles-finish-text_block_1 = **Вот и все!** Роль по реакции {$role_name} на [вот этом сообщении]($message_url) с эмодзи {$emoji_code} создана успешно. Удалить ее и посмотреть список других созданных ролей по реакции можно будет в разделе **Листинг**, который вы могли видеть ранее в меню ролей по реакции.
+cmd-admin-panel-content-reaction_roles-finish-text_block_1 = :n_sparkles: **Вот и все!** Роль по реакции {$role_name} на [вот этом сообщении]($message_url) с эмодзи {$emoji_code} создана успешно. Удалить ее и посмотреть список других созданных ролей по реакции можно будет в разделе **Листинг**, который вы могли видеть ранее в меню ролей по реакции.
