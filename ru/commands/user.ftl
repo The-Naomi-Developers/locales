@@ -17,6 +17,7 @@ cmd-user-content-title = О {$user_type ->
 cmd-user-content-info = Информация об аккаунте
 cmd-user-content-info-is_bot = :n_terminal: **Управляется приложением**
 cmd-user-content-info-subscriber = :n_sparkles: **Саппортер {$tier}**
+cmd-user-content-info-premium_info_is_unavailable = :warning: **Информация о подписках временно недоступна.**
 cmd-user-content-info-id = :n_fingerprint: ID: `{$id}`
 cmd-user-content-info-created_at = :n_clockplus: Регистрация: {$timestamp_markup}
 

@@ -36,3 +36,4 @@ cmd-admin-panel-content-role_saving = **:n_pointer_plus: Сохранение р
         }**
     }
 
+cmd-admin-panel-content-boost_check_unavailable = :warning: **Сервис управления Premium подписками недоступен, поэтому проверить лимиты не удалось. Пожалуйста, подождите чучуть и попробуйте снова!**
