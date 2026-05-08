@@ -8,9 +8,10 @@ cmd-premium-buttons-change = Поменять
 cmd-premium-buttons-manage-boosts = Управление бустами
 
 cmd-premium-content-title = Управление Premium-подпиской
-cmd-premium-content-information-notice = В этом меню Вы можете просмотреть статус своей подписки, узнать, как приобрести Premium и управлять доступными Вам бустами серверов.
-cmd-premium-content-your-subscription = :n_sparkles: **Ваша подписка:** ` {$tier_name} `
-cmd-premium-content-no-subscription = ...какая подписка? Её нет!
+cmd-premium-content-information_notice = В этом меню Вы можете просмотреть статус своей подписки, узнать, как приобрести Premium и управлять доступными Вам бустами серверов.
+cmd-premium-content-your_subscription = :n_sparkles: **Ваша подписка:** ` {$tier_name} `
+cmd-premium-content-subscriptions_unavailable = :warning: **Сервис управления Premium подписками недоступен, попробуйте позже!**
+cmd-premium-content-no_subscription = ...какая подписка? Её нет!
 cmd-premium-content-subscription-features = :n_block_up: **Возможности подписки:**
 
 cmd-premium-content-feature-reaction_roles = Роли по реакции
