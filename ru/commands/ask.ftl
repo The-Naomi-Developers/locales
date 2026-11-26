@@ -8,3 +8,5 @@ cmd-ask-args-message-desc = Что вы хотите спросить у мен�
 cmd-ask =
     .ctx-modal-title = Что-то от себя?
     .ctx-modal-additional-name = Если есть, что добавить - добавьте!
+    .errors-quota-limit = :n_annoyed: Лимит вопросов к ИИ на этот месяц исчерпан... Premium даст больше!
+    .errors-quota-unavailable = :warning: Сервис ИИ временно недоступен, попробуйте позже!
