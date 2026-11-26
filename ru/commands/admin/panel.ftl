@@ -1,16 +1,29 @@
-# Command meta
 cmd-admin-panel-name = админ-панель
 cmd-admin-panel-desc = Панель управления настройками Naomi для этого сервера.
 
-# Command content
-cmd-admin-panel-content-should_be_used_on_a_server = :n_woah: Странный ты человек, меня только на сервере можно настроить!
+cmd-admin-panel =
+    .content-should_be_used_on_a_server = :x: | Панель администратора не может быть открыта в личных сообщениях.
+    .content-title = Панель администратора
+    .content-permission_notice = Разделы панели, для управления которыми у вас нет прав, не будут доступны.
 
-cmd-admin-panel-content-title = **Панель управления Naomi**
-cmd-admin-panel-content-permission_notice = :n_notice: Эта панель представляет единую точку входа для возможностей конфигурации Наоми под ваши нужды. Примите во внимание, что если кнопка недоступна (не нажимается) - это означает,  что у Вас нет доступа к этой функции.
+    .sections-modules = Управление модулями команд для этого сервера.
+    .sections-modules-menu = Настроить
+    .sections-reaction_roles = Роли, выдаваемые за реакции на сообщениях сервера.
+    .sections-reaction_roles-menu = Роли по реакциям
+    .sections-auto_roles = Роли, автоматически выдаваемые при входе на сервер.
+    .sections-auto_roles-menu = Авто-роли
+    .sections-role_saving = Сохранение ролей участников при выходе с сервера.
+    .sections-role_saving-menu = Сохранение ролей
 
-# Buttons
-cmd-admin-panel-button-reaction_roles = Настроить роли по реакциям
-cmd-admin-panel-button-automatic_roles = Настроить авто-роли
-cmd-admin-panel-button-role_saving = Настроить сохранение ролей
-
-cmd-admin-panel-button-back = Назад
+    .content-role_saving = **:n_pointer_plus: Сохранение ролей при выходе:**
+        :n_arrow_right: {$is_saving_enabled ->
+            *[0] Выключено
+            [1] Включено
+                :n_arrow_right: Период сохранения: **{$time_limit_days ->
+                [one] {$time_limit_days} день
+                [few] {$time_limit_days} дня
+                [many] {$time_limit_days} дней
+                *[other] {$time_limit_days} дней
+            }**
+        }
+    .content-boost_check_unavailable = :warning: **Сервис управления Premium подписками недоступен, поэтому проверить лимиты не удалось. Пожалуйста, подождите чучуть и попробуйте снова!**

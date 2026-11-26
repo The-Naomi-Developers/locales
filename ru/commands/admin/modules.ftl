@@ -1,0 +1,9 @@
+panel-modules =
+    .module = Модуль {$name}
+    .enabled = Вкл.
+    .disabled = Выкл.
+    .pending-suffix =  (будет)
+    .apply = Применить
+    .page-prev = ◀
+    .page-next = ▶
+    .sync-in-progress = Идет обновление команд. Подождите {$remaining} секунд до следующей синхронизации.
