@@ -41,6 +41,7 @@ ar-listing =
     .deleted = Авто-роль удалена - успешно и со стилем
     .role-does-not-exist = Роль удалена...
     .entry = **Выдаваемая роль:** {$role_meta}
+        {"**"}Тип:** {$role_mode}
     .button-delete = Удалить
 
 ar-create-step1 =

@@ -43,6 +43,7 @@ rr-listing =
     .entry = **Эмодзи:** {$emoji_code}
         {"**"}Сообщение:** {$message_url}
         {"**"}Выдаваемая роль:** {$role_meta}
+        {"**"}Тип:** {$role_mode}
     .button-delete = Удалить
 
 rr-create-step1 =
