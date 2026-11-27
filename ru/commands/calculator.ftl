@@ -5,4 +5,6 @@ cmd-calc-args-expression = выражение
 cmd-calc-args-expression-desc = Математическое выражение, которое необходимо вычислить.
 
 cmd-calc =
-    .content-calculation_error = :n_annoyed: Не получилось вычислить...
+    .content-calculation_error =
+        :n_annoyed: Не получилось вычислить...
+        -# {$error}

@@ -14,6 +14,8 @@ cmd-admin-panel =
     .sections-auto_roles-menu = Авто-роли
     .sections-role_saving = Сохранение ролей участников при выходе с сервера.
     .sections-role_saving-menu = Сохранение ролей
+    .sections-quick_aliases = Быстрые алиасы: калькулятор и перевод обычным текстом.
+    .sections-quick_aliases-menu = Быстрые команды
 
     .content-role_saving = **:n_pointer_plus: Сохранение ролей при выходе:**
         :n_arrow_right: {$is_saving_enabled ->
@@ -27,3 +29,10 @@ cmd-admin-panel =
             }**
         }
     .content-boost_check_unavailable = :warning: **Сервис управления Premium подписками недоступен, поэтому проверить лимиты не удалось. Пожалуйста, подождите чучуть и попробуйте снова!**
+
+panel-quick-aliases =
+    .title = Быстрые команды
+    .description = Быстрые алиасы срабатывают на обычные сообщения, без слешей и префиксов: выражение, заканчивающееся на `==?`, посчитает калькулятор, а текст вида `текст->язык` переведёт на указанный язык. Каждый алиас можно включить или отключить отдельно.
+    .alias-calculator = Быстрый калькулятор
+    .alias-translate = Быстрый перевод
+    .button-back = Назад
