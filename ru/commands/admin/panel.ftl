@@ -16,6 +16,8 @@ cmd-admin-panel =
     .sections-role_saving-menu = Сохранение ролей
     .sections-quick_aliases = Быстрые алиасы: калькулятор и перевод обычным текстом.
     .sections-quick_aliases-menu = Быстрые команды
+    .sections-audit = Лог аудита сервера: все действия модерации и события.
+    .sections-audit-menu = Лог аудита
 
     .content-role_saving = **:n_pointer_plus: Сохранение ролей при выходе:**
         :n_arrow_right: {$is_saving_enabled ->
